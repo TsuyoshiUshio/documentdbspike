@@ -1,0 +1,4 @@
+{
+  "url": "https://YOUR_COSMOSDB_ACCOUNT.documents.azure.com:443",
+  "masterKey": "YOUR_PRIMARY_KEY"
+}
