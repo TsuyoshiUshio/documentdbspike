@@ -10,12 +10,24 @@ I'm not sure if it is accepted or not. However
 
 This repo is the sample code for insert/update with upsert sample. 
 
+# Usage
+
 You can use this feature with insall the library like this. (e.g. dep) 
 
 ```
 [[constraint]]
   name = "github.com/TsuyoshiUshio/documentdb-go"
   branch = "feature/upsert"
+```
+
+```
+dep ensure
+```
+
+Then rename the `config.json.example` to `config.json` and edit it fit your CosmosDB configuration 
+
+```
+go run main.go
 ```
 
 # Limitation
